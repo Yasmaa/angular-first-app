@@ -1,0 +1,23 @@
+<h2>List</h2>
+
+
+
+<section class="animes" >
+
+ 
+
+  <div class="anime-card" *ngFor="let anime of data">
+    <div class="anime-image">
+      <img src={{anime.photo}}>
+      <div>
+      <h5>{{anime.name}}</h5>
+      <h6>{{anime.characteristics}}</h6>
+      </div>
+    </div>
+    
+  </div>
+
+
+</section>
+
+
